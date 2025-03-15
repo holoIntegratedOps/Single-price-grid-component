@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!--personal css-->
+    <link rel="icon" type="image/x-icon" href="./Image/favicon-32x32.png"> <!--frontend mentors icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"> <!--import karla font-->
+    <title>Vanilla Price Card</title>
+</head>
+<body>
+    <div id="mainPage" class="show">
+        <div class="top-box"> <!--top box start-->
+            <h1 style="color:rgb(92, 201, 252)">Join our community</h1>
+            <h2 style="color: hsl(71, 73%, 54%)">30-day, hassle-free money back guarantee</h2>
+            <p style="color: hsl(218, 22%, 67%)">Gains access to our full library of tutorials along with expert code reviews <br> Perfect for any developers who are serious about honing their skills</p>
+        </div> <!--top box end-->
+
+        <div class="bottom-box-container"> <!--bottom-box container start-->
+            
+            <div class="left-box"> <!--left box start-->
+                <h4>Monthly Subscription</h4>
+                <p><span style="font-size: 20px;">$29</span><span style="color: hsl(218, 22%, 67%); position: relative; top: -2px;"> per month</span></p>
+                <p>Full access for less than $1 a day</p>
+                <button class="signUp-btn" id="signUpBtn" onclick="signUp()" title="Sign up" aria-label="Sign up">Sign Up</button>
+            </div> <!--left box end-->
+
+            <div class="right-box"> <!--right box start-->
+                <h4>Why Us</h4>
+                <ul class="reason-list">
+                    <li>Tutorials by industry experts</li>
+                    <li>Peer & expert code review</li>
+                    <li>Coding exercises</li>
+                    <li>Access to our Github repos</li>
+                    <li>Community forum</li>
+                    <li>Flashcard decks</li>
+                    <li>New videos every week</li>
+                </ul>
+            </div> <!--right box end-->
+
+        </div> <!--bottom-box container end-->
+    </div>
+    
+    <div id="successPage" class="hide"> <!--successful page start-->
+        <h3 style="color: white; font-size: x-large;">THANK YOU</h3>
+        <P>You have successfully subscribed to our monthly plan</P>
+        <p>****************************************************</p>
+    </div> <!--successful page end-->
+
+    <script src="function.js"></script>
+</body>
+</html>
